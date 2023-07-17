@@ -1,0 +1,75 @@
+@import "./color.scss";
+
+.accordionSection {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: $fontcolor;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: $bordercolor;
+    > div:first-of-type {
+      
+        width: 100%;
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        > h1 {
+            width: 100%;
+            font-size: 3rem;
+            font-weight: 600;
+            margin: 1rem 0;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    > div:last-of-type {
+        // border: 1px solid blue;
+        width: 100%;
+        min-height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        > p {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+        > div {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            margin-top: 5px;
+            // border: 1px solid red;
+            > input {
+                width: 24rem;
+                height: 3.5rem;
+                background-color: #000000d8;
+                font-size: 1rem;
+                letter-spacing: 1px;
+                padding: 0 0 0 20px;
+                color: #fff;
+                border-radius: 5px;
+            }
+            > button {
+                width:12rem ;
+                height: 3.5rem;
+                background-color: $red;
+                color: #fff;
+                font-size: 1.4rem;
+                font-weight: 500;
+                margin-left: 12px;
+                border-radius: 5px;
+                border: none;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    
+    }
+}

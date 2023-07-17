@@ -1,0 +1,53 @@
+@import "./color.scss";
+
+.thirdSection {
+    width:100%;
+    height: 80vh;
+    display: flex;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 0 2rem;
+    border-bottom: $bordercolor;
+
+    > div:first-of-type {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        > img {
+           width:35rem;
+            // border: 1px solid white;
+        }
+        
+    }
+
+    > div:last-of-type {
+        width: 40%;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        color: $fontcolor;
+     //   border: 1px solid blue;
+
+        > h1 {
+            width: 100%;
+            font-size: 3rem;
+            font-weight: 600;
+            margin: 1rem 0;
+          //  border: 1px solid green;
+        }
+        > h3 {
+            width: 100%;
+            //margin-left: 14rem;
+            font-size: 1.3rem;
+            font-weight: 400;
+            letter-spacing: 1px;
+            line-height: 2rem;
+            padding: 0.5rem;
+          //  border: 1px solid pink;
+
+    }
+   
+}
+}
