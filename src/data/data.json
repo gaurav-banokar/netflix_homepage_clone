@@ -48,28 +48,26 @@
   ],
 
   "footerOne": {
-    "FAQ":"https://help.netflix.com/en/node/412",
-    "Media Centre":"https://media.netflix.com/en/",
+    "FAQ": "https://help.netflix.com/en/node/412",
+    "Media Centre": "https://media.netflix.com/en/",
     "Ways to Watch": "https://devices.netflix.com/en/",
-    "Cookie Preferences":"https://www.google.com/",
-    "Speed Test":""
+    "Cookie Preferences": "https://www.netflix.com/in/#",
+    "Speed Test": "https://fast.com/"
   },
-  
-  "footerTwo": {
-      "Help Centre": "",
-      "Investor relations": "",
-      "Terms of Use": "",
-      "Corporate Information": "",
-      "Legal Notices": ""
-    },
-  
-  "footerThree": {
-    "Account": "",
-    "Jobs": "",
-    "Privacy": "",
-    "Contact Us": "",
-    "Only on Netfix": "" 
-  }
 
-  
+  "footerTwo": {
+    "Help Centre": "https://help.netflix.com/",
+    "Investor relations": "http://ir.netflix.com/",
+    "Terms of Use": "https://help.netflix.com/legal/termsofuse",
+    "Corporate Information": "https://help.netflix.com/legal/corpinfo",
+    "Legal Notices": "https://help.netflix.com/legal/notices"
+  },
+
+  "footerThree": {
+    "Account": "https://www.netflix.com/youraccount",
+    "Jobs": "https://jobs.netflix.com/jobs",
+    "Privacy": "https://help.netflix.com/legal/privacy",
+    "Contact Us": "https://help.netflix.com/contactus",
+    "Only on Netfix": "https://www.netflix.com/in/browse/genre/839338"
+  }
 }
