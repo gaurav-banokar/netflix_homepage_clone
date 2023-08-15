@@ -1,10 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../assets/logo.png";
 import { langIcon } from "../data/svg";
 // scss
 import "../styles/home.scss";
 
+
 const Home = () => {
+  const [english,setEnglish] = useState("English");
+  const [hindi,setHindi] = useState("Hindi");
+
+  window.addEventListener("resize",(e) => {
+    if(window.screen.width < 600) {
+      setEnglish("");
+      setHindi("")
+    }
+    else {
+      setEnglish("English");
+      setHindi("Hindi")
+    } 
+  })
+
+  
+
+  useEffect(() => {
+    if(window.screen.width < 600) {
+      console.log("eventliasyner")
+      setEnglish("");
+      setHindi("")
+    }
+    return ()=> {
+      window.removeEventListener("resize",window)
+    }
+  }, [])
+  
   return (
     <div className="container">
       <div className="home">
@@ -16,9 +44,9 @@ const Home = () => {
           <div className="rightbox">
             <div>
               <span>{langIcon}</span>c
-              <select name="" id="">
-                <option value="">English</option>
-                <option value="">Hindi</option>
+              <select name="" id="langSelect">
+                <option value="">{english}</option>
+                <option value="">{hindi}</option>
               </select>
             </div>
 

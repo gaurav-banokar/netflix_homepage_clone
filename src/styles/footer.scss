@@ -87,3 +87,27 @@
     }
   }
 }
+@media (max-width:1000px) {
+  .footer {
+    height: max-content;
+    padding: 0;
+    justify-content: flex-start;
+    padding: 2rem 0;
+  .footerBox {
+    width: 100%;
+    margin-left: 2rem;
+    flex-direction: column;
+    gap:1rem;
+    > div:nth-child(2) {
+      flex-wrap: wrap;
+      height: auto;
+      width: 100%;
+      > div {
+        width: 100%;
+      }
+    }
+
+  
+  }
+}
+}

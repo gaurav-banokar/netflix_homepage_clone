@@ -1,6 +1,6 @@
 @import "./color.scss";
 
-.secondSection {
+.fourthSection {
   width: 100%;
   height: 70vh;
   display: flex;
@@ -17,6 +17,7 @@
     color: $fontcolor;
     padding: 2rem 4rem;
     margin-left: 2rem;
+
     > h1 {
       width: 100%;
       font-size: 3rem;
@@ -28,7 +29,7 @@
       font-size: 1.3rem;
       font-weight: 400;
       letter-spacing: 1px;
-      line-height: 1.8rem;
+      line-height: 2rem;
     }
   }
   > div:last-of-type {
@@ -44,11 +45,10 @@
       position: relative;
       > video {
         position: absolute;
-        border: 1px solid green;
-        width: 75%;
-        height: 80%;
-        top: 8%;
-        left: 12%;
+        width: 60%;
+        height: 65%;
+        top: 1%;
+        left: 19%;
       }
       > img {
         position: absolute;
@@ -60,45 +60,46 @@
 }
 
 @media (max-width: 1000px) {
-  .secondSection {
-    height: auto;
+  .fourthSection {
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding-top: 5%;
     padding-bottom: 3rem;
-
     > div:first-of-type {
       width: 100%;
-      text-align: center;
+      justify-content: center;
+      align-items: center;
       margin: 0;
       > h1 {
-        font-size: 1.8rem;
         width: 80%;
+        text-align: center;
+        font-size: 1.8rem;
       }
       > h3 {
-        font-size: 1.3rem;
         width: 80%;
+        text-align: center;
+        font-size: 1.3rem;
       }
     }
     > div:last-of-type {
       width: 100%;
       justify-content: center;
       > div {
-        width: 32vmax;
-        height: 30vmax;
+        width: 37vmax;
+        height: 32vmax;
       }
     }
   }
 }
 @media (min-width: 1600px) {
-  .secondSection {
+  .fourthSection {
     > div:first-of-type {
       > h1 {
         font-size: 3.5rem;
+        text-align: center;
       }
       > h3 {
         font-size: 1.5rem;
+        text-align: center;
       }
     }
   }

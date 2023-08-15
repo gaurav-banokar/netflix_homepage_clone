@@ -3,7 +3,7 @@ import React from "react";
 //styles
 import "../styles/secondSection.scss";
 
-const SecondSection = ({ imageStyle, videoStyle, tvImage, tvVideo, heading,content }) => {
+const SecondSection = ({ tvImage, tvVideo, heading,content }) => {
   return (
     <div className="secondSection">
       <div>
@@ -14,8 +14,10 @@ const SecondSection = ({ imageStyle, videoStyle, tvImage, tvVideo, heading,conte
       </div>
 
       <div>
-        <div style={imageStyle}>
-          <video src={tvVideo} autoPlay muted loop style={videoStyle}></video>
+        <div>
+          <video src={tvVideo} autoPlay muted loop ></video>
+          <img src={tvImage} alt="tvImage"  />
+          
         </div>
       </div>
     </div>
