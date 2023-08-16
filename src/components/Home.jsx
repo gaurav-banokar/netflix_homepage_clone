@@ -23,7 +23,7 @@ const Home = () => {
   
 
   useEffect(() => {
-    if(window.screen.width < 600) {
+    if(window.screen.width < 1000) {
       console.log("eventliasyner")
       setEnglish("");
       setHindi("")

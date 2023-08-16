@@ -160,7 +160,7 @@
 @media (max-width: 1000px) {
   .home {
     height: 100%;
-
+    padding: 20px 0;
     > div:first-of-type {
       //topbox
       > div:first-of-type {
@@ -170,27 +170,29 @@
         align-items: center;
         justify-content: center;
         > img {
-          width: 10vmax;
-          height: 5vmax;
+          width: 80px;
+          height: 50px;
         }
       }
       > div:last-of-type {
         //rightbox
         width: 60%;
         padding: 0 10px;
-
+        gap: 13px;
         > div {
-          width: 12vmax;
-          height: 4vmax;
+          width: 60px;
+          height: 30px;
           > select {
             font-size: 0.9rem;
             width: max-content;
           }
         }
         > button {
-          width: 12vmax;
-          height: 4vmax;
+          width: 60px; //12vmax
+          height: 30px;
           font-size: 0.9rem;
+          font-weight: 300;
+          margin-left: 0;
         }
       }
     }
@@ -216,16 +218,20 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 1rem;
+        gap:1rem;
         > input {
-          width: 33vmax;
-          height: 5.7vmax;
-          font-size: 1rem;
+          width: 250px;
+          height: 35px;
+          font-size: 0.6rem;
+          font-weight: 300;
+          font-family: Verdana, Geneva, Tahoma, sans-serif
+          //margin-bottom: 15px;
         }
         > button {
           font-size: 1rem;
-          width: 15vmax;
-          height: 5vmax;
+          font-weight: 300;
+          width: 100px;
+          height: 30px;
         }
       }
     }

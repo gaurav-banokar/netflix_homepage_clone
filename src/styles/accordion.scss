@@ -53,24 +53,23 @@
   }
 }
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   .accordion {
     > div {
-     >div:first-of-type {
-      height: 4rem;
-      > p {
-        font-size: 1rem;
+      > div:first-of-type {
+        height: 4rem;
+        > p {
+          font-size: 1rem;
+        }
+        > span > svg {
+          font-size: 20px;
+        }
       }
-      > span >svg {
-        font-size: 20px;
+      > div:last-of-type {
+        > p {
+          font-size: 1rem;
+        }
       }
-     }
-     >div:last-of-type {
-      > p {
-        font-size: 1rem;
-      }
-     
-     }
     }
   }
 }
