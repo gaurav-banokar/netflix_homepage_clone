@@ -54,10 +54,11 @@
     justify-content: center;
     padding-bottom: 4rem;
     padding-top: 2rem;
-    gap: 5rem;
+    gap: 2rem;
     > div:first-of-type {
       width: 100%;
       text-align: center;
+      order: 2;
       > img {
         width: 35vmax;
         height: 25vmax;
@@ -67,7 +68,9 @@
       width: 80%;
       justify-content: center;
       align-items: center;
+      order: 1;
       > h1 {
+        width: 90%;
         font-size: 1.8rem;
         text-align: center;
       }

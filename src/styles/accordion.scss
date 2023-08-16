@@ -12,7 +12,6 @@
   box-sizing: border-box;
   transition: all 1s;
   padding: 0.5rem 0;
-
   > div:first-child {
     height: 5rem;
     width: 80%;
@@ -46,11 +45,32 @@
     height: min-content;
     padding: 1rem 2rem;
     margin-top: 2px;
-
     > p {
       font-size: 1.3rem;
       letter-spacing: 1px;
       line-height: 30px;
+    }
+  }
+}
+
+@media (max-width:1000px) {
+  .accordion {
+    > div {
+     >div:first-of-type {
+      height: 4rem;
+      > p {
+        font-size: 1rem;
+      }
+      > span >svg {
+        font-size: 20px;
+      }
+     }
+     >div:last-of-type {
+      > p {
+        font-size: 1rem;
+      }
+     
+     }
     }
   }
 }

@@ -159,10 +159,10 @@
 
 @media (max-width: 1000px) {
   .home {
-    height: 60vh;
+    height: 100%;
+
     > div:first-of-type {
       //topbox
-
       > div:first-of-type {
         //logo
         width: 40%;
@@ -177,8 +177,8 @@
       > div:last-of-type {
         //rightbox
         width: 60%;
-        height: 100%;
         padding: 0 10px;
+
         > div {
           width: 12vmax;
           height: 4vmax;
@@ -188,7 +188,7 @@
           }
         }
         > button {
-          width: 14vmax;
+          width: 12vmax;
           height: 4vmax;
           font-size: 0.9rem;
         }
@@ -196,6 +196,7 @@
     }
     > div:last-of-type {
       //bottombox
+      margin: 2rem 0;
       > h1 {
         font-size: 1.6rem;
         width: 80%;

@@ -5,7 +5,7 @@ import React from "react";
 import Home from "./components/Home";
 import SecondSection from "./components/SecondSection";
 import ThirdSection from "./components/ThirdSection";
-import FourthSection from "./components/FourthSection'";
+import FourthSection from "./components/FourthSection";
 import AccordionSection from "./components/AccordionSection";
 import Footer from "./components/Footer";
 

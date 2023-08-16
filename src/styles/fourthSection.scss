@@ -63,6 +63,7 @@
   .fourthSection {
     flex-direction: column;
     justify-content: center;
+    height: auto;
     padding-bottom: 3rem;
     > div:first-of-type {
       width: 100%;
@@ -70,12 +71,12 @@
       align-items: center;
       margin: 0;
       > h1 {
-        width: 80%;
+        width: 90%;
         text-align: center;
         font-size: 1.8rem;
       }
       > h3 {
-        width: 80%;
+        width: 100%;
         text-align: center;
         font-size: 1.3rem;
       }
@@ -83,9 +84,10 @@
     > div:last-of-type {
       width: 100%;
       justify-content: center;
+      padding: 3%;
       > div {
-        width: 37vmax;
-        height: 32vmax;
+        width: 48vmax;
+        height: 34vmax;
       }
     }
   }

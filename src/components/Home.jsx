@@ -45,8 +45,8 @@ const Home = () => {
             <div>
               <span>{langIcon}</span>c
               <select name="" id="langSelect">
-                <option value="">{english}</option>
-                <option value="">{hindi}</option>
+                <option value="English">{english}</option>
+                <option value="Hindi">{hindi}</option>
               </select>
             </div>
 
